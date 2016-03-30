@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.ashif.postman.AboutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pandora"
+        android:scaleType="fitStart"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/ImgIcon"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:layout_below="@+id/ImgIcon"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="15dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:text="@string/dev"
+        />
+</RelativeLayout>
